@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+authors = [{name = "Dakota Blair", email = "dakota@tensen.net"}]
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "aaabbb"
+readme = "README.md"
+
+[tool.black]
+line-length = 80
